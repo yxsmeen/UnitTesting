@@ -18,11 +18,12 @@ class EmployeeTest {
 		e.setHours(4, 0);
 		e.setHours(5, 0);
 		e.setHours(6, 0);
-		
+
 		double expPay = 0.00;
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
 	}
+
 	
 	
 	@Test
@@ -57,11 +58,12 @@ class EmployeeTest {
 		e.setHours(4, 0);
 		e.setHours(5, 0);
 		e.setHours(6, 0);
-		
+
 		double expPay = 130.00;
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
 	}
+
 	@Test
 	@DisplayName("Test Case4")
 	void testGetPay_case4() {
@@ -82,7 +84,7 @@ class EmployeeTest {
 		
 		
 	}
-	
+
 	@Test
 	@DisplayName("Test Case 5")
 	void testGetPay5() {
@@ -94,30 +96,11 @@ class EmployeeTest {
 		e.setHours(4, 2);
 		e.setHours(5, 2);
 		e.setHours(6, 0);
-		
+
 		double expPay = 160.00;
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
 	}
-	
-	@Test
-	@DisplayName("Test Case6")
-	void testGetPay_case6() {
-		Employee e;
-		e = new Employee("Trey", 10);
-		e.setHours(0, 12);
-		e.setHours(1, 11);
-		e.setHours(2, 0);
-		e.setHours(3, 9);
-		e.setHours(4, 10);
-		e.setHours(5, 4);
-		e.setHours(6, 0);
-	
-		double expPay = 510.0;
-		double actPay =  e.getPay();
-		
-		assertEquals(expPay,actPay);
-}
 
 	@Test
 	@DisplayName("Test Case 7")
@@ -130,30 +113,12 @@ class EmployeeTest {
 		e.setHours(4, 2);
 		e.setHours(5, 0);
 		e.setHours(6, 0);
-		
+
 		double expPay = 360.00;
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
 	}
-	@Test
-	@DisplayName("Test Case8")
-	void testGetPay_case8() {
-		Employee e;
-		e = new Employee("Trey", 10);
-		e.setHours(0, 9);
-		e.setHours(1, 7);
-		e.setHours(2, 10);
-		e.setHours(3, 6);
-		e.setHours(4, 8);
-		e.setHours(5, 0);
-		e.setHours(6, 0);
-	
-		double expPay = 400.0;
-		double actPay =  e.getPay();
-		
-		assertEquals(expPay,actPay);
-}
-	
+
 	@Test
 	@DisplayName("Test Case 9")
 	void testGetPay9() {
@@ -165,11 +130,12 @@ class EmployeeTest {
 		e.setHours(4, 10);
 		e.setHours(5, 0);
 		e.setHours(6, 0);
-		
+
 		double expPay = 565.00;
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
 	}
+
 	
 	@Test
 	@DisplayName("Test Case10")
@@ -190,6 +156,7 @@ class EmployeeTest {
 		assertEquals(expPay,actPay);
 }
 	
+
 	@Test
 	@DisplayName("Test Case 11")
 	void testGetPay11() {
@@ -201,12 +168,12 @@ class EmployeeTest {
 		e.setHours(4, 12);
 		e.setHours(5, 0);
 		e.setHours(6, 6);
-		
+
 		double expPay = 700.00;
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
 	}
-	
+
 	@Test
 	@DisplayName("Test Case12")
 	void testGetPay_cas12() {
@@ -226,6 +193,7 @@ class EmployeeTest {
 		assertEquals(expPay,actPay);
 }
 	
+
 	@Test
 	@DisplayName("Test Case 13")
 	void testGetPay13() {
@@ -237,7 +205,7 @@ class EmployeeTest {
 		e.setHours(4, 4);
 		e.setHours(5, 7);
 		e.setHours(6, 8);
-		
+
 		double expPay = 795.00;
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
