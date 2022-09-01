@@ -62,7 +62,7 @@ class EmployeeTest {
 		double accPay = e.getPay();
 		assertEquals(expPay, accPay);
 	}
-		@Test
+	@Test
 	@DisplayName("Test Case4")
 	void testGetPay_case4() {
 		Employee e;
@@ -171,7 +171,7 @@ class EmployeeTest {
 		assertEquals(expPay, accPay);
 	}
 	
-		@Test
+	@Test
 	@DisplayName("Test Case10")
 	void testGetPay_case10() {
 		Employee e;
@@ -207,7 +207,7 @@ class EmployeeTest {
 		assertEquals(expPay, accPay);
 	}
 	
-		@Test
+	@Test
 	@DisplayName("Test Case12")
 	void testGetPay_cas12() {
 		Employee e;
