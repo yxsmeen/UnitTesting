@@ -24,7 +24,8 @@ class EmployeeTest {
 		assertEquals(expPay, accPay);
 	}
 	
-		@Test
+	
+	@Test
 	@DisplayName("Test Case2")
 	void testGetPay_case2() {
 		Employee e;
